@@ -22,8 +22,8 @@ function App() {
       result *= num;
 
       for (let e = 1; e < num; e++) {
-        if (result % 2 == 1) {
-          if (result == 0) {
+        if (result % 2 === 1) {
+          if (result === 0) {
             result = 1 / e;
           } else {
             result /= e;

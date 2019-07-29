@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 const go = new window.Go();
 let inst, mod;
 
@@ -34,7 +34,7 @@ export default function WebAssemblyHook() {
           });
         });
     }
-  }, [inst, mod]);
+  }, []);
 
   return [ready, window._myExpensiveGO];
 }
