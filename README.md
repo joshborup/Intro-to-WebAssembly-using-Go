@@ -14,6 +14,6 @@
 
 - `src/App.js`
 - `src/WebAssemblyHook.js`
-- `public/main.wasm (Binary Go File)`
+- `public/main.wasm (Binary Go/WebAssembly File)`
 - `public/wasm_exec.js`
 - `webassembly.go`
