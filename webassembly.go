@@ -5,12 +5,6 @@ import (
 	"syscall/js"
 )
 
-// function definition
-func add(this js.Value, i []js.Value) interface{} {
-	fmt.Println(js.ValueOf(i[0].Int() + i[1].Int()))
-	return js.ValueOf(i[0].Int() + i[1].Int())
-}
-
 func expensive(this js.Value, i []js.Value) interface{} {
 	fmt.Println(js.ValueOf(i[0].Int()))
 	num := i[0].Int()

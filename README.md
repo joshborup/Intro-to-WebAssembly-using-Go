@@ -2,10 +2,18 @@
 
 ## get started
 
-### `git clone <this repo>`
+**git clone [`https://github.com/joshborup/Intro-to-WebAssembly-using-Go.git`](https://github.com/joshborup/Intro-to-WebAssembly-using-Go.git)**
 
-### `cd Intro-to-WebAssembly-using-Go`
+**cd Intro-to-WebAssembly-using-Go**
 
-### `npm install`
+**npm install**
 
-### `npm start`
+**npm start**
+
+## Relevant Files
+
+- `src/App.js`
+- `src/WebAssemblyHook.js`
+- `public/main.wasm (Binary Go File)`
+- `public/wasm_exec.js`
+- `webassembly.go`
